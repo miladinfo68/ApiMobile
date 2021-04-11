@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29020.237
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IAUECMobileServices", "IAUECMobileServices\IAUECMobileServices.csproj", "{5C48F5B4-7BD2-4DB3-AB1C-EB8AF75AA89E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAL", "DAL\DAL.csproj", "{931FE2C3-41D2-4E1E-98C1-3DD84C92FF81}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DTO", "DTO\DTO.csproj", "{3306B6B2-80C2-4F23-8063-E15492CE8EAE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Model", "Model\Model.csproj", "{9AAEAD93-5AD3-4222-A679-27410FEB8ABA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Utility", "Utility\Utility.csproj", "{4741EC85-6D6A-4D6E-99A7-B17EBB1FC64E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C48F5B4-7BD2-4DB3-AB1C-EB8AF75AA89E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C48F5B4-7BD2-4DB3-AB1C-EB8AF75AA89E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C48F5B4-7BD2-4DB3-AB1C-EB8AF75AA89E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C48F5B4-7BD2-4DB3-AB1C-EB8AF75AA89E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{931FE2C3-41D2-4E1E-98C1-3DD84C92FF81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{931FE2C3-41D2-4E1E-98C1-3DD84C92FF81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{931FE2C3-41D2-4E1E-98C1-3DD84C92FF81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{931FE2C3-41D2-4E1E-98C1-3DD84C92FF81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3306B6B2-80C2-4F23-8063-E15492CE8EAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3306B6B2-80C2-4F23-8063-E15492CE8EAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3306B6B2-80C2-4F23-8063-E15492CE8EAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3306B6B2-80C2-4F23-8063-E15492CE8EAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AAEAD93-5AD3-4222-A679-27410FEB8ABA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AAEAD93-5AD3-4222-A679-27410FEB8ABA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AAEAD93-5AD3-4222-A679-27410FEB8ABA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AAEAD93-5AD3-4222-A679-27410FEB8ABA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4741EC85-6D6A-4D6E-99A7-B17EBB1FC64E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4741EC85-6D6A-4D6E-99A7-B17EBB1FC64E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4741EC85-6D6A-4D6E-99A7-B17EBB1FC64E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4741EC85-6D6A-4D6E-99A7-B17EBB1FC64E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B2514538-74C9-472E-9332-8DE32BE30BDB}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://192.168.4.21:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = IAUECMobileServices\\IAUECMobileServices.csproj
+		SccProjectName1 = IAUECMobileServices
+		SccLocalPath1 = IAUECMobileServices
+		SccProjectUniqueName2 = DAL\\DAL.csproj
+		SccProjectName2 = DAL
+		SccLocalPath2 = DAL
+		SccProjectUniqueName3 = DTO\\DTO.csproj
+		SccProjectName3 = DTO
+		SccLocalPath3 = DTO
+		SccProjectUniqueName4 = Model\\Model.csproj
+		SccProjectName4 = Model
+		SccLocalPath4 = Model
+		SccProjectUniqueName5 = Utility\\Utility.csproj
+		SccProjectName5 = Utility
+		SccLocalPath5 = Utility
+	EndGlobalSection
+EndGlobal

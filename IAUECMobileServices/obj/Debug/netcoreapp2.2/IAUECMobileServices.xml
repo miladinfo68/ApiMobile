@@ -1,0 +1,185 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>IAUECMobileServices</name>
+    </assembly>
+    <members>
+        <member name="M:IAUECMobileServices.Controllers.CollegesController.Get">
+            <summary>
+            دریافت دانشکده ها
+            </summary>
+        </member>
+        <member name="M:IAUECMobileServices.Controllers.EducationalClassesController.Get">
+            <summary>
+            دریافت کلاس های ترم جاری
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:IAUECMobileServices.Controllers.EducationalClassesController.Get(System.String)">
+            <summary>
+            دریافت کلاسهای ترمی خاص
+            </summary>
+            <param name="termCode">کد ترم مد نظر برای مثال 96-97-2</param>
+            <returns></returns>
+        </member>
+        <member name="M:IAUECMobileServices.Controllers.EducationalClassesController.GetByFieldId(System.Decimal)">
+            <summary>
+            دریافت کلاس های براساس رشته
+            </summary>
+            <param name="fieldId">کد رشته</param>
+            <returns></returns>
+        </member>
+        <member name="M:IAUECMobileServices.Controllers.EducationalClassesController.GetByGroupId(System.Decimal)">
+            <summary>
+            دریافت کلاس های براساس گروه
+            </summary>
+            <param name="fieldId">کد گروه</param>
+            <returns></returns>
+        </member>
+        <member name="M:IAUECMobileServices.Controllers.EducationalClassesStudentController.Get(System.Decimal,System.String)">
+            <summary>
+            دریافت کلاسهای استاد در ترمی خاص
+            </summary>
+            <param name="classCode">کد کلاس</param>
+            <param name="termCode">کد ترم مثال 2-97-96</param>
+            <returns></returns>
+        </member>
+        <member name="M:IAUECMobileServices.Controllers.EducationalClassesStudentController.Get(System.String)">
+            <summary>
+            دریافت دانشجویان کلاسها در ترمی خاص
+            </summary>
+            <param name="termCode">کد ترم مثال 2-97-96</param>
+            <returns></returns>
+        </member>
+        <member name="M:IAUECMobileServices.Controllers.EducationalGroupsController.Get">
+            <summary>
+            دریافت گروههای آموزشی
+            </summary>
+        </member>
+        <member name="M:IAUECMobileServices.Controllers.EducationalGroupsController.GetCurrentTerm">
+            <summary>
+            دریافت گروههای آموزشی ترم جاری
+            </summary>
+        </member>
+        <member name="M:IAUECMobileServices.Controllers.FieldsController.Get">
+            <summary>
+            دریافت رشته ها
+            </summary>
+        </member>
+        <member name="M:IAUECMobileServices.Controllers.FieldsController.GetFieldsByGroupId(System.Int32)">
+            <summary>
+            لیست رشته ها بر اساس گروه درسی
+            </summary>
+            <param name="groupid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IAUECMobileServices.Controllers.PasswordController.Get(Utility.Helper.ObjectType,System.String)">
+            <summary>
+            درخواست تغییر رمز عبور تو سط کاربر
+            </summary>
+            <param name="objectType">
+             برای مشخص کردن نوع پروفایل 1:دانشجو 2: استاد 
+            </param>
+            <param name="code">کد دانشجویی یا استادی</param>
+            <returns></returns>
+        </member>
+        <member name="M:IAUECMobileServices.Controllers.PasswordController.Get(Utility.Helper.ObjectType,System.String,System.String,System.String)">
+            <summary>
+            تغییر رمز عبور توسط کاربر
+            </summary>
+            <param name="objectType">
+             برای مشخص کردن نوع پروفایل 1:دانشجو 2: استاد 
+            </param>
+            <param name="code">کد دانشجویی یا استادی</param>
+            <param name="password">رمز عبور</param>
+            <param name="randomcode">کد تایید</param>
+            <returns></returns>
+        </member>
+        <member name="M:IAUECMobileServices.Controllers.ProfessorEducationalClassesController.Get(System.Int32,System.String)">
+            <summary>
+            دریافت کلاسهای استاد در ترمی خاص
+            </summary>
+            <param name="professorCode">کد استاد</param>
+            <param name="termCode">کد ترم مثال 2-97-96</param>
+            <returns></returns>
+        </member>
+        <member name="M:IAUECMobileServices.Controllers.ProfessorEducationalClassesController.Get(System.String)">
+            <summary>
+            دریافت کلاسهای اساتید در ترمی خاص
+            </summary>
+            <param name="termCode">کد ترم مثال 2-97-96</param>
+            <returns></returns>
+        </member>
+        <member name="M:IAUECMobileServices.Controllers.ProfileController.Get(System.String,System.String)">
+            <summary>
+            دریافت پروفایل کاربران
+            </summary>
+            <param name="code">کد دانشجویی یا استادی یا کارمندی</param>
+            <param name="password">رمز عبور</param>
+            <returns>NoError = 0,InCorrectPassword = 1,NotExists = 2,InCorrectRandomNumber=3</returns>
+        </member>
+        <member name="M:IAUECMobileServices.Controllers.ProfileController.Get(System.String)">
+            <summary>
+            دریافت پروفایل کاربران
+            </summary>
+            <param name="code">کد دانشجویی یا استادی</param>
+            <returns>NoError = 0,InCorrectPassword = 1,NotExists = 2,InCorrectRandomNumber=3</returns>
+        </member>
+        <member name="M:IAUECMobileServices.Controllers.ProfileController.GetPicture(System.String)">
+            <summary>
+            دریافت تصویر پروفایل
+            </summary>
+            <param name="code">کد دانشجویی یا استادی</param>
+            <returns></returns>
+        </member>
+        <member name="M:IAUECMobileServices.Controllers.RolesController.Get">
+            <summary>
+            لیست نقش ها
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:IAUECMobileServices.Controllers.RolesController.GetRoleNameByRoleId(System.Int32)">
+            <summary>
+            نام نقش بر اساس شناسه نقش
+            </summary>
+            <param name="roleId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IAUECMobileServices.Controllers.SmsController.Get(Utility.Helper.ObjectType,System.String,System.Int32)">
+            <summary>
+            ارسال کد تایید به کاربر
+            </summary>
+            <param name="objectType">
+             برای مشخص کردن نوع پروفایل 1:دانشجو 2: استاد 
+            </param>
+            <param name="code">کد دانشجویی یا استادی</param>
+            <param name="randomcode">کد تایید</param>
+            <returns></returns>
+        </member>
+        <member name="M:IAUECMobileServices.Controllers.SmsController.Get(System.String,System.Int32)">
+            <summary>
+            ارسال کد تایید به کاربر
+            </summary>
+            <param name="mobile">شماره موبایل</param>
+            <param name="randomNumber">کد تایید</param>
+            <returns></returns>
+        </member>
+        <member name="M:IAUECMobileServices.Controllers.TermsController.Get">
+            <summary>
+            دریافت ترم ها
+            </summary>
+        </member>
+        <member name="M:IAUECMobileServices.Controllers.UsersController.Get(System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.Int32)">
+            <summary>
+            دریافت دانشجویان و اساتید یک مجموعه خاص مانند دانشکده و گروه و غیره  
+            </summary>
+            <param name="collegeId">کد دانشکده: در صورتی که به این پارامتر مقدار نمی خواهید بدهید عدد 0 را وارد نمایید  </param>
+            <param name="groupId">کد گروه: در صورتی که به این پارامتر مقدار نمی خواهید بدهید عدد 0 را وارد نمایید  </param>
+            <param name="fieldId">کد رشته: در صورتی که به این پارامتر مقدار نمی خواهید بدهید عدد 0 را وارد نمایید  </param>
+            <param name="lessonId">کد درس: در صورتی که به این پارامتر مقدار نمی خواهید بدهید عدد 0 را وارد نمایید  </param>
+            <param name="educationalClassId">کد کلاس: در صورتی که به این پارامتر مقدار نمی خواهید بدهید عدد 0 را وارد نمایید  </param>
+            <param name="objectTypeId"> استاد(2) یا دانشجو(1)1</param>
+            <returns>لیست </returns>
+        </member>
+    </members>
+</doc>

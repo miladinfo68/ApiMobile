@@ -1,0 +1,12 @@
+D:\aaa_UniversityProjects\ProjDanesh_192.168.4.21\IAUEC_MobileServices\DTO\obj\Debug\netcoreapp2.2\DTO.csprojAssemblyReference.cache
+D:\aaa_UniversityProjects\ProjDanesh_192.168.4.21\IAUEC_MobileServices\DTO\obj\Debug\netcoreapp2.2\DTO.AssemblyInfoInputs.cache
+D:\aaa_UniversityProjects\ProjDanesh_192.168.4.21\IAUEC_MobileServices\DTO\obj\Debug\netcoreapp2.2\DTO.AssemblyInfo.cs
+D:\aaa_UniversityProjects\ProjDanesh_192.168.4.21\IAUEC_MobileServices\DTO\obj\Debug\netcoreapp2.2\DTO.csproj.CoreCompileInputs.cache
+D:\aaa_UniversityProjects\ProjDanesh_192.168.4.21\IAUEC_MobileServices\DTO\bin\Debug\netcoreapp2.2\DTO.deps.json
+D:\aaa_UniversityProjects\ProjDanesh_192.168.4.21\IAUEC_MobileServices\DTO\bin\Debug\netcoreapp2.2\DTO.dll
+D:\aaa_UniversityProjects\ProjDanesh_192.168.4.21\IAUEC_MobileServices\DTO\bin\Debug\netcoreapp2.2\DTO.pdb
+D:\aaa_UniversityProjects\ProjDanesh_192.168.4.21\IAUEC_MobileServices\DTO\bin\Debug\netcoreapp2.2\Utility.dll
+D:\aaa_UniversityProjects\ProjDanesh_192.168.4.21\IAUEC_MobileServices\DTO\bin\Debug\netcoreapp2.2\Utility.pdb
+D:\aaa_UniversityProjects\ProjDanesh_192.168.4.21\IAUEC_MobileServices\DTO\obj\Debug\netcoreapp2.2\DTO.csproj.CopyComplete
+D:\aaa_UniversityProjects\ProjDanesh_192.168.4.21\IAUEC_MobileServices\DTO\obj\Debug\netcoreapp2.2\DTO.dll
+D:\aaa_UniversityProjects\ProjDanesh_192.168.4.21\IAUEC_MobileServices\DTO\obj\Debug\netcoreapp2.2\DTO.pdb

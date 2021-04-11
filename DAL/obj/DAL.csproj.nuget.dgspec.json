@@ -1,0 +1,287 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\aaa_UniversityProjects\\ProjDanesh_192.168.4.21\\IAUEC_MobileServices\\DAL\\DAL.csproj": {}
+  },
+  "projects": {
+    "D:\\aaa_UniversityProjects\\ProjDanesh_192.168.4.21\\IAUEC_MobileServices\\DAL\\DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\aaa_UniversityProjects\\ProjDanesh_192.168.4.21\\IAUEC_MobileServices\\DAL\\DAL.csproj",
+        "projectName": "DAL",
+        "projectPath": "D:\\aaa_UniversityProjects\\ProjDanesh_192.168.4.21\\IAUEC_MobileServices\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\m_jalali\\.nuget\\packages\\",
+        "outputPath": "D:\\aaa_UniversityProjects\\ProjDanesh_192.168.4.21\\IAUEC_MobileServices\\DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\m_jalali\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {
+              "D:\\aaa_UniversityProjects\\ProjDanesh_192.168.4.21\\IAUEC_MobileServices\\DTO\\DTO.csproj": {
+                "projectPath": "D:\\aaa_UniversityProjects\\ProjDanesh_192.168.4.21\\IAUEC_MobileServices\\DTO\\DTO.csproj"
+              },
+              "D:\\aaa_UniversityProjects\\ProjDanesh_192.168.4.21\\IAUEC_MobileServices\\Model\\Model.csproj": {
+                "projectPath": "D:\\aaa_UniversityProjects\\ProjDanesh_192.168.4.21\\IAUEC_MobileServices\\Model\\Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[1.60.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "System.ServiceModel.Duplex": {
+              "target": "Package",
+              "version": "[4.4.*, )"
+            },
+            "System.ServiceModel.Http": {
+              "target": "Package",
+              "version": "[4.4.*, )"
+            },
+            "System.ServiceModel.NetTcp": {
+              "target": "Package",
+              "version": "[4.4.*, )"
+            },
+            "System.ServiceModel.Security": {
+              "target": "Package",
+              "version": "[4.4.*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\aaa_UniversityProjects\\ProjDanesh_192.168.4.21\\IAUEC_MobileServices\\DTO\\DTO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\aaa_UniversityProjects\\ProjDanesh_192.168.4.21\\IAUEC_MobileServices\\DTO\\DTO.csproj",
+        "projectName": "DTO",
+        "projectPath": "D:\\aaa_UniversityProjects\\ProjDanesh_192.168.4.21\\IAUEC_MobileServices\\DTO\\DTO.csproj",
+        "packagesPath": "C:\\Users\\m_jalali\\.nuget\\packages\\",
+        "outputPath": "D:\\aaa_UniversityProjects\\ProjDanesh_192.168.4.21\\IAUEC_MobileServices\\DTO\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\m_jalali\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {
+              "D:\\aaa_UniversityProjects\\ProjDanesh_192.168.4.21\\IAUEC_MobileServices\\Utility\\Utility.csproj": {
+                "projectPath": "D:\\aaa_UniversityProjects\\ProjDanesh_192.168.4.21\\IAUEC_MobileServices\\Utility\\Utility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\aaa_UniversityProjects\\ProjDanesh_192.168.4.21\\IAUEC_MobileServices\\Model\\Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\aaa_UniversityProjects\\ProjDanesh_192.168.4.21\\IAUEC_MobileServices\\Model\\Model.csproj",
+        "projectName": "Model",
+        "projectPath": "D:\\aaa_UniversityProjects\\ProjDanesh_192.168.4.21\\IAUEC_MobileServices\\Model\\Model.csproj",
+        "packagesPath": "C:\\Users\\m_jalali\\.nuget\\packages\\",
+        "outputPath": "D:\\aaa_UniversityProjects\\ProjDanesh_192.168.4.21\\IAUEC_MobileServices\\Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\m_jalali\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "targetAlias": "netcoreapp2.1",
+            "projectReferences": {
+              "D:\\aaa_UniversityProjects\\ProjDanesh_192.168.4.21\\IAUEC_MobileServices\\Utility\\Utility.csproj": {
+                "projectPath": "D:\\aaa_UniversityProjects\\ProjDanesh_192.168.4.21\\IAUEC_MobileServices\\Utility\\Utility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\aaa_UniversityProjects\\ProjDanesh_192.168.4.21\\IAUEC_MobileServices\\Utility\\Utility.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\aaa_UniversityProjects\\ProjDanesh_192.168.4.21\\IAUEC_MobileServices\\Utility\\Utility.csproj",
+        "projectName": "Utility",
+        "projectPath": "D:\\aaa_UniversityProjects\\ProjDanesh_192.168.4.21\\IAUEC_MobileServices\\Utility\\Utility.csproj",
+        "packagesPath": "C:\\Users\\m_jalali\\.nuget\\packages\\",
+        "outputPath": "D:\\aaa_UniversityProjects\\ProjDanesh_192.168.4.21\\IAUEC_MobileServices\\Utility\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\m_jalali\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "targetAlias": "netcoreapp2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

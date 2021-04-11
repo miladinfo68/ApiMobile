@@ -1,0 +1,8 @@
+D:\aaa_UniversityProjects\ProjDanesh_192.168.4.21\IAUEC_MobileServices\Utility\obj\Debug\netcoreapp2.1\Utility.AssemblyInfoInputs.cache
+D:\aaa_UniversityProjects\ProjDanesh_192.168.4.21\IAUEC_MobileServices\Utility\obj\Debug\netcoreapp2.1\Utility.AssemblyInfo.cs
+D:\aaa_UniversityProjects\ProjDanesh_192.168.4.21\IAUEC_MobileServices\Utility\obj\Debug\netcoreapp2.1\Utility.csproj.CoreCompileInputs.cache
+D:\aaa_UniversityProjects\ProjDanesh_192.168.4.21\IAUEC_MobileServices\Utility\bin\Debug\netcoreapp2.1\Utility.deps.json
+D:\aaa_UniversityProjects\ProjDanesh_192.168.4.21\IAUEC_MobileServices\Utility\bin\Debug\netcoreapp2.1\Utility.dll
+D:\aaa_UniversityProjects\ProjDanesh_192.168.4.21\IAUEC_MobileServices\Utility\bin\Debug\netcoreapp2.1\Utility.pdb
+D:\aaa_UniversityProjects\ProjDanesh_192.168.4.21\IAUEC_MobileServices\Utility\obj\Debug\netcoreapp2.1\Utility.dll
+D:\aaa_UniversityProjects\ProjDanesh_192.168.4.21\IAUEC_MobileServices\Utility\obj\Debug\netcoreapp2.1\Utility.pdb
